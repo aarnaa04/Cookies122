@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     public void onClick(View v) {
         ImageView imageview =(ImageView) findViewById(R.id.android_cookie_image_view);
         imageview.setImageResource(R.drawable.after_cookie);
-       // 1imageview.setImageResource(R.drawable.before_cookie);
+       // 13imageview.setImageResource(R.drawable.before_cookie);
         TextView textView=(TextView) findViewById(status_text_view);
         textView.setText("I'm Full");
         textView.setTextSize(40);
